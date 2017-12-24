@@ -1,2 +1,2 @@
 # darkbeginings.tk
-First thingy things 
+First thingy things and geting used to github
