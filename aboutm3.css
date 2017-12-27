@@ -4,13 +4,13 @@ height:100%;
 }
 #left{
 float:left;
-background-color:silver;
+background-color:gold;
 width:10%;
 height:100%;
 }
 #right{
 float:right;
-background-color:gold;
+background-color:silver;
 width:90%;
 height:100%;
 }
