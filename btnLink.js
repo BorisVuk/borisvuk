@@ -1,9 +1,13 @@
 function home(){
-document.location.href="index.html";
+document.location.href="#home";
 }
 function about(){
-document.location.href="aboutm3.html";
+document.location.href="#about";
+}
+function skills(){
+document.location.href="#skills";
 }
 function contact(){
-document.location.href="contact.html";
+document.location.href="#contact";
 }
+

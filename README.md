@@ -1,2 +1,2 @@
 # darkbeginings.tk
-First thingy things and geting used to github
+jQuery and Bootstrap make my site load rly slow Me no likey tht
