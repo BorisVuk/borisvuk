@@ -10,4 +10,3 @@ document.location.href="#skills";
 function contact(){
 document.location.href="#contact";
 }
-
