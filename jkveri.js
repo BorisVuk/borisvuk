@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    $("p").css({"color":"White"});
+    $("p").css({"color":"White","margin":"25px"});
+    $("h1").css({"margin":"15px"});
 $("#meny").css({
   "position": "fixed",
   "top": "0",
