@@ -18,7 +18,7 @@ $("#home").css({
     "background-color":"#cc0000"});
 $("#about").css({
     "padding-top":"24px",
-    "background-color":"#1a66ff"});
+    "background-color":"#0000cc"});
 $("#skills").css({
     "padding-top":"24px",
     "background-color":"white"});
