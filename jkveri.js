@@ -8,7 +8,7 @@ $("#meny").css({
   "width": "100%",
   "height": "48px",
   "z-index": "10",
-  "background-color":"#1a66ff"
+  "background-color":"#1a66ff",
     });
 $("#box").css({
   "background-color":"gray",
