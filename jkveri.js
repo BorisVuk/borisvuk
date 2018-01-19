@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $("p").css({"color":"White"});
 $("#meny").css({
   "position": "fixed",
   "top": "0",
@@ -14,15 +15,15 @@ $("#box").css({
   "width": "975px",
   "padding": "30px"});
 $("#home").css({
-    "padding-top":"24px",
+    "padding-top":"40px",
     "background-color":"#cc0000"});
 $("#about").css({
-    "padding-top":"24px",
+    "padding-top":"40px",
     "background-color":"#0000cc"});
 $("#skills").css({
-    "padding-top":"24px",
+    "padding-top":"40px",
     "background-color":"white"});
 $("#contact").css({
-    "padding-top":"24px",
+    "padding-top":"40px",
     "background-color":"silver"});
 });
