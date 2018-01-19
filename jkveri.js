@@ -6,7 +6,7 @@ $("#meny").css({
   "width": "100%",
   "height": "48px",
   "z-index": "10",
-  "background-color":"navy"
+  "background-color":"#1a66ff"
     });
 $("#box").css({
   "background-color":"gray",
@@ -15,10 +15,10 @@ $("#box").css({
   "padding": "30px"});
 $("#home").css({
     "padding-top":"24px",
-    "background-color":"red"});
+    "background-color":"#cc0000"});
 $("#about").css({
     "padding-top":"24px",
-    "background-color":"blue"});
+    "background-color":"#1a66ff"});
 $("#skills").css({
     "padding-top":"24px",
     "background-color":"white"});

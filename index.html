@@ -1,15 +1,16 @@
-<link rel="stylesheet" href="index.css">
-	<script src="btnLink.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="btnLink.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 	<script   src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="jkveri.js"></script>
 <html>
  <body>
      <div id="meny">
-         <button onclick="home()" >Home</button>
-         <button onclick="about()" >About</button>
-         <button onclick="skills()" >Skills</button>
-         <button onclick="contact()" >Contact</button>
-     </div>
+         <button onclick="home()" class="btn btn-outline-light text-dark" >Home</button>
+         <button onclick="about()" class="btn btn-outline-light text-dark" >About</button>
+         <button onclick="skills()" class="btn btn-outline-light text-dark" >Skills</button>
+         <button onclick="contact()" class="btn btn-outline-light text-dark" >Contact</button>
+    </div>
      <div id="box">
      <div id="home">
          <h1>Home</h1>
@@ -55,16 +56,31 @@ Consequat semper viverra nam libero justo laoreet.</p>
      </div>
      <div id="skills">
          <h1>Skills</h1>
-         <ul>
-             <li>bit</li>
-             <li>BIT</li>
-             <li>bIt</li>
-             <li>BiT</li>
-         </ul>
-     </div>
+         <div class="progress border">
+                <div class="progress-bar bg-dark progress-bar-striped" style="width:30%">Java</div>
+         </div><br>
+         <div class="progress border">
+                <div class="progress-bar bg-dark progress-bar-striped" style="width:30%">C++</div>
+         </div><br>
+         <div class="progress border">
+                <div class="progress-bar bg-dark progress-bar-striped" style="width:25%">Matlab</div>
+         </div><br>
+         <div class="progress border">
+                <div class="progress-bar bg-dark progress-bar-striped" style="width:20%">Php</div>
+         </div><br>
+         <div class="progress border">
+                <div class="progress-bar bg-dark progress-bar-striped" style="width:15%">Mysql</div>
+         </div><br>
+         <div class="progress border">
+                <div class="progress-bar bg-dark progress-bar-striped" style="width:20%">Html</div>
+         </div><br>
+         <div class="progress border">
+                <div class="progress-bar bg-dark progress-bar-striped" style="width:20%">Css</div>
+         </div><br>     
+    </div>
      <div id="contact">
          <h1>Contact</h1>
-         <p>WHY DID I WASTE MY TIME WITH THIS</p>
+         <p><a href="mailto:zaboravni123@gmail.com?Subject=Hello%20again"><img src="email.gif"></a></p>
      </div>
     </div>
  </body>
